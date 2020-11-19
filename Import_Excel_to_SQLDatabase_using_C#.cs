@@ -1,4 +1,3 @@
-﻿using Caresoft.Common;
 using OfficeOpenXml;
 using System;
 using System.Collections.Generic;
@@ -26,7 +25,7 @@ namespace WpfApp1
             InitializeComponent();
         }
 
-        private void Loadd(object sender, RoutedEventArgs e)
+        private void ReadExcel_and_Import_to_DB(object sender, RoutedEventArgs e)
         {
             string connString = "";
             DataTable OTHERS = new DataTable();
